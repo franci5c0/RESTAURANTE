@@ -1,0 +1,97 @@
+section.menu-conteiner {
+  background-size: 100vw 120vh;
+  background-position: center -100px;
+  height: 100%;
+  width: 1349px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  div.section-edit {
+    width: 100px;
+    display: grid;
+    grid-template-columns: repeat(3, 250px);
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+
+    div.section-div {
+      margin-bottom: 40px;
+      text-align: center;
+      img {
+        width: 250px;
+        height: 330px;
+        border-radius: 20px;
+        border: outset 3px #b8860b;
+        box-shadow: 2px 2px 2px 2px black;
+        margin-bottom: 10px;
+      }
+      h3.name-food {
+        color: white;
+        font-size: 25px;
+        text-shadow: 2px 2px 2px var(--black);
+        font-family: "DM Serif Text";
+      }
+
+      p.sub-name-food {
+        margin-bottom: 10px;
+        color: var(--white);
+        text-shadow: 2px 2px 2px var(--black);
+        font-family: "Great Vibes";
+        font-size: 23px;
+      }
+
+      span.price {
+        color: var(--white);
+        font-family: "Dancing Script";
+      }
+
+      input.quant-menu {
+        width: 70px;
+        text-align: center;
+        font-size: 20px;
+        border-radius: 10px;
+        height: 35px;
+        margin-bottom: 10px;
+      }
+
+      input.quant-menu::-webkit-inner-spin-button,
+      input.quant-menu::-webkit-outer-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+      }
+
+      button.cart-button {
+        font-size: 13px;
+        padding: 10px;
+        border-radius: 30px;
+        background-color: var(--oldgold);
+        font-family: "Lobster";
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+div.tittle-section {
+  margin-bottom: 30px;
+  text-align: center;
+  h2.section-h2 {
+    background-size: cover;
+    font-size: 60px;
+    color: gold;
+    font-family: "Oleo Script";
+    text-shadow: 4px 5px 4px var(--black); /*atrás(direita) / baixo / sombreamento*/
+    text-align: center;
+  }
+}
+
+p.sub-tittle-menu-h2 {
+  font-size: 25px;
+  color: var(--oldgold);
+  text-shadow: 4px 5px 4px var(--black);
+  font-family: "Lobster";
+}

@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Dancing+Script:wght@400..700&family=Great+Vibes&family=Lobster&family=Oleo+Script:wght@400;700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --cherry: #9b0d2f;
+  --oldgold: #b8860b;
+  --black: #000000;
+  --white: #ffffff;
+}
+
+body {
+  background-color: #4d121c;
+  background-image: url(../img/banners/veludo.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header.topo {
+  background-position: 0px 0px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 50px;
+  text-align: center;
+  /* background-color: #8b0000; */
+  background-image: url(../img/banners/vin-banner-dark.png);
+  background-position: 0px -200px;
+  .main-little {
+    font-size: 80px;
+    font-weight: 100;
+    font-family: "Lobster";
+    text-align: center;
+    color: var(--black);
+    /* text-shadow: 2px 2px 2px; */
+    -webkit-text-stroke: 2px gold; /*deixa o texto com borda*/
+  }
+}
+
+p.food-and-wine-p {
+  font-size: 30px;
+  color: var(--black);
+  font-family: "Lobster";
+  text-shadow: 2px 2px 2px var(--oldgold);
+}
+
+footer.rodape {
+  background-image: url(../img/banners/vin-banner-dark.png);
+  height: 100;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  div.logo-vin {
+    img {
+      width: 150px;
+    }
+  }
+  div.home-icon {
+    img {
+      width: 100px;
+      margin-right: 70px;
+    }
+  }
+
+  div.payment {
+    gap: 40px;
+    justify-content: center;
+    text-align: center;
+    display: block;
+
+    img {
+      margin: 20px;
+    }
+    h3.payment-tittle {
+      font-size: 30px;
+      font-family: "Oleo Script";
+    }
+  }
+}
+
+hr.line {
+  border: solid 3px black;
+  max-width: 100vw;
+}
