@@ -26,7 +26,7 @@ header.topo {
   padding: 50px;
   text-align: center;
   /* background-color: #8b0000; */
-  background-image: url(../img/banners/vin-banner-dark.png);
+  background-image: url(../img/banners/vin-banner.png);
   background-position: 0px -200px;
   .main-little {
     font-size: 80px;
@@ -47,7 +47,7 @@ p.food-and-wine-p {
 }
 
 footer.rodape {
-  background-image: url(../img/banners/vin-banner-dark.png);
+  background-image: url(../img/banners/vin-banner.png);
   height: 100;
   display: flex;
   align-items: center;
