@@ -34,8 +34,6 @@ section.section-conteiner-index {
   }
 
   div.main-edit-conteiner {
-    background-size: 100vw 120vh;
-    background-position: center;
     height: 350px;
     background-repeat: no-repeat;
     display: flex;
