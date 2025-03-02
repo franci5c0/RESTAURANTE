@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Dancing+Script:wght@400..700&family=Great+Vibes&family=Lobster&family=Oleo+Script:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Dancing+Script:wght@400..700&family=Great+Vibes&family=Lobster&family=Oleo+Script:wght@400;700&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -48,7 +48,6 @@ p.food-and-wine-p {
 
 footer.rodape {
   background-image: url(../img/banners/vin-banner.png);
-  height: 100;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -65,10 +64,7 @@ footer.rodape {
   }
 
   div.payment {
-    gap: 40px;
-    justify-content: center;
     text-align: center;
-    display: block;
 
     img {
       margin: 20px;
