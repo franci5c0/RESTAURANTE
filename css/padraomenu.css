@@ -1,3 +1,23 @@
+div.tittle-section {
+  margin-bottom: 30px;
+  text-align: center;
+  h2.section-h2 {
+    background-size: cover;
+    font-size: 60px;
+    color: gold;
+    font-family: "Oleo Script";
+    text-shadow: 4px 5px 4px var(--black); /*atrás(direita) / baixo / sombreamento*/
+    text-align: center;
+  }
+}
+
+p.sub-tittle-menu-h2 {
+  font-size: 25px;
+  color: var(--oldgold);
+  text-shadow: 4px 5px 4px var(--black);
+  font-family: "Lobster";
+}
+
 section.menu-conteiner {
   background-size: 100vw 120vh;
   background-position: center -100px;
@@ -23,7 +43,7 @@ section.menu-conteiner {
       text-align: center;
       img {
         width: 250px;
-        height: 330px;
+        height: 270px;
         border-radius: 20px;
         border: outset 3px #b8860b;
         box-shadow: 2px 2px 2px 2px black;
@@ -74,24 +94,4 @@ section.menu-conteiner {
       }
     }
   }
-}
-
-div.tittle-section {
-  margin-bottom: 30px;
-  text-align: center;
-  h2.section-h2 {
-    background-size: cover;
-    font-size: 60px;
-    color: gold;
-    font-family: "Oleo Script";
-    text-shadow: 4px 5px 4px var(--black); /*atrás(direita) / baixo / sombreamento*/
-    text-align: center;
-  }
-}
-
-p.sub-tittle-menu-h2 {
-  font-size: 25px;
-  color: var(--oldgold);
-  text-shadow: 4px 5px 4px var(--black);
-  font-family: "Lobster";
 }
