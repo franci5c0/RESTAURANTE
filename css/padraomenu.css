@@ -20,22 +20,19 @@ p.sub-tittle-menu-h2 {
 
 section.menu-conteiner {
   background-size: 100vw 120vh;
-  background-position: center -100px;
   height: 100%;
   width: 1349px;
   display: flex;
   justify-content: center;
   align-items: center;
   background-repeat: no-repeat;
-  background-repeat: no-repeat;
   background-size: cover;
 
   div.section-edit {
     display: grid;
     grid-template-columns: repeat(3, 250px);
-    justify-content: center;
     gap: 60px;
-
+    justify-content: center;
     div.section-div {
       margin-bottom: 40px;
       text-align: center;
@@ -47,6 +44,7 @@ section.menu-conteiner {
         box-shadow: 2px 2px 2px 2px black;
         margin-bottom: 10px;
       }
+
       h3.name-food {
         color: white;
         font-size: 25px;
