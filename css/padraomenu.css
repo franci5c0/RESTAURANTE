@@ -47,7 +47,7 @@ section.menu-conteiner {
 
       h3.name-food {
         color: white;
-        font-size: 25px;
+        font-size: 20px;
         text-shadow: 2px 2px 2px var(--black);
         font-family: "DM Serif Text";
       }
