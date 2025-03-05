@@ -1,16 +1,16 @@
-/* body {
+ body {
   background-color: #4d121c;
 }
 
-h1.main-tittle {
+& h1 {
   font-size: 80px;
   font-weight: 100;
   font-family: "Lobster";
   text-align: center;
   color: black;
-  -webkit-text-stroke: 2px gold; /*deixa o texto com bordas*/
-/* } */
-/*
+  -webkit-text-stroke: 2px gold; 
+}
+
 div.welcome {
   text-align: center;
   margin-bottom: 80px;
@@ -32,7 +32,7 @@ section.section-conteiner-index {
     }
   }
 
-  div.main-edit-conteiner {
+  div.main-edit-container {
     height: 350px;
     background-repeat: no-repeat;
     display: flex;
@@ -74,127 +74,6 @@ section.section-conteiner-index {
       transform: scale(1.1);
     }
   }
-}
- */
-body {
-  background-color: #4d121c;
-}
+} 
 
-h1.main-tittle {
-  font-size: 80px;
-  font-weight: 100;
-  font-family: "Lobster";
-  text-align: center;
-  color: black;
-  -webkit-text-stroke: 2px gold; /*deixa o texto com borda*/
-}
-
-div.welcome {
-  text-align: center;
-  margin-bottom: 80px;
-}
-
-div.welcome h2.welcome-tittle {
-  font-size: 35px;
-  color: gold;
-  font-family: "Oleo Script";
-}
-
-section.section-conteiner-index div.h2-menu-index {
-  text-align: center;
-  color: white;
-  font-family: "Oleo Script";
-}
-
-section.section-conteiner-index div.h2-menu-index h2.menu-index-welcome {
-  font-size: 40px;
-  color: gold;
-}
-
-div.main-edit-conteiner {
-  height: 350px;
-  background-repeat: no-repeat;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-div.main-edit-conteiner img {
-  width: 150px;
-  height: 150px;
-}
-
-div.main-edit-conteiner div.menu-banner {
-  display: block;
-  text-align: center;
-  margin: 40px;
-}
-
-div.main-edit-conteiner div.menu-banner h3.comment-menu {
-  font-size: 25px;
-  font-family: "Oleo Script";
-  color: white;
-  text-shadow: 2px 2px 2px black;
-  margin: 15px;
-}
-
-div.main-edit-conteiner div.menu-banner .img-banner {
-  border-radius: 30px;
-  border: outset 3px #b8860b;
-  box-shadow: 2px 2px 2px 2px black;
-}
-
-button.button-menu {
-  width: 100px;
-  height: 40px;
-  border-radius: 20px;
-  cursor: pointer;
-  background-color: #b8860b;
-  box-shadow: 2px 1px 1px 1px black;
-  border: outset 2px black;
-}
-
-button.button-menu:hover {
-  transition: all;
-  transform: scale(1.1);
-}
-
-/* Regras para telas de até 320px */
-@media (max-width: 320px) {
-  h1.main-tittle {
-    font-size: 50px; /* Reduz o tamanho da fonte */
-    -webkit-text-stroke: 1px gold; /* Reduz a espessura da borda */
-  }
-
-  div.welcome h2.welcome-tittle {
-    font-size: 25px; /* Reduz o tamanho da fonte */
-  }
-
-  section.section-conteiner-index div.h2-menu-index h2.menu-index-welcome {
-    font-size: 30px; /* Reduz o tamanho da fonte */
-  }
-
-  div.main-edit-conteiner {
-    height: auto; /* Ajusta a altura para o conteúdo */
-    flex-direction: column; /* Altera a direção do flex para coluna */
-  }
-
-  div.main-edit-conteiner img {
-    width: 100px; /* Reduz o tamanho da imagem */
-    height: 100px;
-  }
-
-  div.main-edit-conteiner div.menu-banner {
-    margin: 20px; /* Reduz a margem */
-  }
-
-  div.main-edit-conteiner div.menu-banner h3.comment-menu {
-    font-size: 20px; /* Reduz o tamanho da fonte */
-  }
-
-  button.button-menu {
-    width: 80px; /* Reduz o tamanho do botão */
-    height: 30px;
-    font-size: 12px; /* Ajusta o tamanho da fonte do botão */
-  }
-}
+ 
