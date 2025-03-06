@@ -19,7 +19,7 @@ body {
   background-size: cover;
 }
 
-header.topo {
+.header {
   background-position: 0px 0px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -28,55 +28,54 @@ header.topo {
   /* background-color: #8b0000; */
   background-image: url(../img/banners/vin-banner.png);
   background-position: 0px -200px;
-  .main-little {
-    font-size: 80px;
-    font-weight: 100;
-    font-family: "Lobster";
-    text-align: center;
-    color: var(--black);
-    /* text-shadow: 2px 2px 2px; */
-    -webkit-text-stroke: 2px gold; /*deixa o texto com borda*/
-  }
 }
 
-p.food-and-wine-p {
+.header__tittle {
+  font-size: 80px;
+  font-weight: 100;
+  font-family: "Lobster";
+  text-align: center;
+  color: var(--black);
+  -webkit-text-stroke: 2px gold;
+}
+
+.header__text {
   font-size: 30px;
   color: var(--black);
   font-family: "Lobster";
   text-shadow: 2px 2px 2px var(--oldgold);
 }
 
-footer.rodape {
+hr.line {
+  border: solid 3px black;
+  max-width: 100vw;
+}
+
+.footer {
   background-image: url(../img/banners/vin-banner.png);
   display: flex;
   align-items: center;
   justify-content: space-between;
-  div.logo-vin {
-    img {
-      width: 150px;
-    }
-  }
-  div.home-icon {
-    img {
-      width: 100px;
-      margin-right: 70px;
-    }
-  }
-
-  div.payment {
-    text-align: center;
-
-    img {
-      margin: 20px;
-    }
-    h3.payment-tittle {
-      font-size: 30px;
-      font-family: "Oleo Script";
-    }
-  }
 }
 
-hr.line {
-  border: solid 3px black;
-  max-width: 100vw;
+.footer__logo .img {
+  width: 150px;
+}
+
+.footer__payment {
+  text-align: center;
+}
+
+.footer__tittle {
+  font-size: 30px;
+  font-family: "Oleo Script";
+}
+
+.footer_payment .img {
+  margin: 20px;
+}
+
+.footer__icon .img {
+  width: 100px;
+  margin-right: 70px;
 }

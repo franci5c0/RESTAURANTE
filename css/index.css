@@ -1,79 +1,81 @@
- body {
+body {
   background-color: #4d121c;
 }
 
-& h1 {
+.header__tittle {
   font-size: 80px;
   font-weight: 100;
   font-family: "Lobster";
   text-align: center;
   color: black;
-  -webkit-text-stroke: 2px gold; 
+  -webkit-text-stroke: 2px gold;
 }
 
-div.welcome {
+.welcome {
   text-align: center;
   margin-bottom: 80px;
-  h2.welcome-tittle {
-    font-size: 35px;
-    color: gold;
-    font-family: "Oleo Script";
-  }
 }
 
-section.section-conteiner-index {
-  div.h2-menu-index {
-    text-align: center;
-    color: white;
-    font-family: "Oleo Script";
-    h2.menu-index-welcome {
-      font-size: 40px;
-      color: gold;
-    }
-  }
+.welcome__tittle {
+  font-size: 35px;
+  color: gold;
+  font-family: "Oleo Script";
+}
 
-  div.main-edit-container {
-    height: 350px;
-    background-repeat: no-repeat;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    img {
-      width: 150px;
-      height: 150px;
-    }
-    div.menu-banner {
-      display: block;
-      text-align: center;
-      margin: 40px;
-      h3.comment-menu {
-        font-size: 25px;
-        font-family: "Oleo Script";
-        color: white;
-        text-shadow: 2px 2px 2px black;
-        margin: 15px;
-      }
-      .img-banner {
-        border-radius: 100px;
-        border: outset 3px #b8860b;
-        box-shadow: 2px 2px 2px 2px black;
-      }
-    }
-    button.button-menu {
-      width: 100px;
-      height: 40px;
-      border-radius: 20px;
-      cursor: pointer;
-      background-color: #b8860b;
-      box-shadow: 2px 1px 1px 1px black;
-      border: outset 2px black;
-    }
+.section__div {
+  text-align: center;
+  color: white;
+  font-family: "Oleo Script";
+}
 
-    button.button-menu:hover {
-      transition: all;
-      transform: scale(1.1);
-    }
-  }
-} 
+.section__tittle {
+  font-size: 40px;
+  color: gold;
+}
 
- 
+.section__main {
+  height: 350px;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section__banner {
+  display: block;
+  text-align: center;
+  margin: 40px;
+}
+
+.section__banner .img {
+  border-radius: 100px;
+  border: outset 3px #b8860b;
+  box-shadow: 2px 2px 2px 2px black;
+  width: 150px;
+  height: 150px;
+}
+
+.section__menu-text {
+  font-size: 25px;
+  font-family: "Oleo Script";
+  color: white;
+  text-shadow: 2px 2px 2px black;
+  margin: 15px;
+}
+
+/* section__link */ /*mantendo o ritmo*/
+
+.section__button {
+  width: 100px;
+  height: 40px;
+  border-radius: 20px;
+  cursor: pointer;
+  background-color: #b8860b;
+  box-shadow: 2px 1px 1px 1px black;
+  border: outset 2px black;
+}
+
+.section__button:hover {
+  transition: all;
+  transform: scale(1.1);
+}
