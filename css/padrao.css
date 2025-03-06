@@ -13,19 +13,16 @@
 }
 
 body {
-  background-color: #4d121c;
   background-image: url(../img/banners/veludo.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .header {
-  background-position: 0px 0px;
   background-repeat: no-repeat;
   background-size: cover;
   padding: 50px;
   text-align: center;
-  /* background-color: #8b0000; */
   background-image: url(../img/banners/vin-banner.png);
   background-position: 0px -200px;
 }
