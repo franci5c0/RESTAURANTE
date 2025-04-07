@@ -55,6 +55,11 @@ body {
   height: 150px;
 }
 
+.section__banner .img:hover {
+  transition: all 1s; /*não precisa do 1s*/
+  transform: scale(1.2);
+}
+
 .section__menu-text {
   font-size: 25px;
   font-family: "Oleo Script";
