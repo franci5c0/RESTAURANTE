@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ABA DE TESTE</title>
+  </head>
+  <body>
+    <style>
+      div.divData {
+        width: 100%;
+        text-align: center;
+      }
+    </style>
+    <div id="data" class="divData"></div>
+  </body>
+  <script>
+
+    
+
+    //DATA (DATE)
+
+    const bornDate = new Date(); //primeiro exemplo
+    const divData = document.getElementById("data"); //obtem o elemento <div> com o ID "data" e armazena-o na variável
+    divData.textContent = "Data:" + bornDate; //textContent é usado para inserir um texto em um elemento HTML
+
+    //const bornDate = new Date(2025, 1, 18, 6); //segundo exemplo
+
+    //const bornDate = new Date("May 14 2025 16:37:00") //terceiro exemplo
+
+    //const bornDate = new Date("2025-05-14T16:34:00.000Z"); //quarto exemplo
+
+    // console.log(bornDate.toISOString())
+    // console.log( "dia", bornDate.getHours())
+    // console.log("mês", bornDate.getMonth())
+    
+
+
+    //ARITMÉTICOS E PRECEDÊNCIA
+
+    //Operadores básicos --> + - * /
+    //Precedências ---> (), */, +-
+
+    //console.log(2 + 2); //primeiro exemplo
+
+    //media ---> soma dos termos divida pela quantidade de termos
+
+    //const media = 10 + 10 + 10 / 3 //exemplo sem precedência
+    //const media = (10 + 10 + 10) / 3 //exemplo com precedência
+    //console.log(media)
+
+
+    //OPERADORES E SUAS ATRIBUIÇÕES
+    //Contadores...
+    //num = num + 1
+  </script>
+</html>
