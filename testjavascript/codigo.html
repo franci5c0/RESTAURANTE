@@ -15,14 +15,69 @@
     <div id="data" class="divData"></div>
   </body>
   <script>
+    //INICIO
 
-    
+    // console.log("Olá mundo");
+
+    //TYPEOF
+
+    //console.log("1", typeof 1); //mostra o tipo do 1 (number)
+    //console.log("Francisco", typeof "Francisco"); //mostra o tipo do nome (string)
+    //console.log("true", typeof true); //mostra o tipo boolean (verdadeiro ou falso)
+    //console.log("string + number", "2" + 2); //mostra como *string + number* se comporta
+    //console.log("string + number", typeof "2" + 2); //mostra o tipo de *string + number*
+
+    //INTEIRO E FLOAT
+
+    //console.log(1) //inteiro
+    //console.log(1.2) //float
+
+    //OBJETO NÃO IDENTIFICADO
+
+    //console.log(NaN); //Not A Number
+    //console.log("A" / 2); //exemplo de identificação inexistente (NaN)
+    //console.log(typeof NaN); //mostra o que é NaN no console
+
+    //AUSÊNCIA DE VALORES
+    //console.log(null); //ausência de valor
+    //console.log(undefined); //indefinido
+    //console.log(typeof null); //mostra o significado no console
+
+    //OBJECT
+    // console.log({ propriedade: "valor" });
+
+    // console.log({
+    // nome: "francisco",
+    // idade: 23,
+    //propriedade dentro da propriedade
+    // endereco: {
+    // cidade: "Parnaíba",
+    // estado: "Piauí",
+    // },
+    // });
+
+    //ARRAY
+    //console.log([1, 2, 3]); //array comum
+    //console.log([1, "A", "B"]); //array misto
+    //console.log([1, "A", {nome: "Francisco", sobrenome: "Neto"}]) //array complexo
+
+    //VARIÁVEIS
+
+    // var nome = "valor"
+    //var peso = 83;
+    //var altura = 1.77;
+    //var resultado = peso / (altura * altura);
+    //console.log(resultado);
 
     //DATA (DATE)
 
-    const bornDate = new Date(); //primeiro exemplo
-    const divData = document.getElementById("data"); //obtem o elemento <div> com o ID "data" e armazena-o na variável
-    divData.textContent = "Data:" + bornDate; //textContent é usado para inserir um texto em um elemento HTML
+    //console.log(Date()); //retorna data e hora e é o mesmo que newDate()
+    //console.log(new Date(2025, 4, 20)); //data específica e hora corrente
+
+    // const bornDate = new Date(); //primeiro exemplo
+    // const divData = document.getElementById("data"); //obtem o elemento <div> com o ID "data" e armazena-o na variável
+
+    // divData.textContent = "Data:" + bornDate; //textContent é usado para inserir um texto em um elemento HTML
 
     //const bornDate = new Date(2025, 1, 18, 6); //segundo exemplo
 
@@ -33,8 +88,6 @@
     // console.log(bornDate.toISOString())
     // console.log( "dia", bornDate.getHours())
     // console.log("mês", bornDate.getMonth())
-    
-
 
     //ARITMÉTICOS E PRECEDÊNCIA
 
@@ -48,7 +101,6 @@
     //const media = 10 + 10 + 10 / 3 //exemplo sem precedência
     //const media = (10 + 10 + 10) / 3 //exemplo com precedência
     //console.log(media)
-
 
     //OPERADORES E SUAS ATRIBUIÇÕES
     //Contadores...
