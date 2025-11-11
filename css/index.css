@@ -34,7 +34,7 @@ body {
 }
 
 /* ÁREA DE RECEITA */
-.recipe__main {
+.recipe__divbutton {
   text-align: center;
   margin-bottom: 20px;
 }
@@ -47,7 +47,7 @@ body {
   background-color: #b8860b;
   box-shadow: 2px 1px 1px 1px black;
   border: outset 2px black;
-  font-family: 'story script';
+  font-family: 'Momo Trust Display';
   text-transform: uppercase;
 }
 
@@ -104,6 +104,7 @@ body {
   background-color: #b8860b;
   box-shadow: 2px 1px 1px 1px black;
   border: outset 2px black;
+  font-family: "Momo Trust Display";
 }
 
 .section__button:hover {
