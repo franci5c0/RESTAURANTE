@@ -14,7 +14,7 @@
 }
 
 body {
-  background-image: url(../img/banners/veludo.png);
+  background-image: url(../img/banners/body-velvett.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -24,8 +24,9 @@ body {
   background-size: cover;
   padding: 50px;
   text-align: center;
-  background-image: url(../img/banners/vin-banner.png);
+  background-image: url(../img/banners/headerfooter-velvet.png);
   background-position: 0px -200px;
+  border-bottom: solid 5px;
 }
 
 .header__tittle {
@@ -45,14 +46,16 @@ body {
 }
 
 .footer {
-  background-image: url(../img/banners/vin-banner.png);
+  background-image: url(../img/banners/headerfooter-velvet.png);
   display: flex;
   align-items: center;
   justify-content: space-between;
+  border-top: solid 5px;
 }
 
 .footer__logo .img {
   width: 150px;
+  padding: 10px;
 }
 
 .footer__payment {
@@ -64,6 +67,10 @@ body {
   font-family: "Oleo Script";
 }
 
+.payment__imagesdiv {
+ display: flex; 
+ justify-content: space-around; 
+}
 .footer_payment .img {
   margin: 20px;
 }

@@ -1,27 +1,46 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 .recipe__tittle {
-    text-align: center;
-      color: white;
+  text-align: center;
+  color: white;
   font-size: 30px;
   text-shadow: 2px 2px 2px var(--black);
   font-family: "DM Serif Text";
 }
 
-.recipe__divmenu {
+.recipe__main {
+  display: grid;
+  grid-template-columns: repeat(3, 340px);
+  align-items: center;
+  justify-content: center;
+}
 
+.recipe__div-menu {
+  text-align: center;
+  align-items: center;
+  margin: 10px;
+}
+
+.recipe__comment {
+  font-size: 12px;
+  color: wheat;
+  margin-left: 10px;
+  background-color: #551717;
+  border-radius: 10px;
+  font-family: "Momo Trust Display";
+  border: outset 1px gold;
+  padding: 5px;
 }
 
 .recipe__img {
   width: 250px;
   height: 270px;
   border-radius: 20px;
-  border: outset 3px #b8860b;
-  box-shadow: 2px 2px 2px 2px black;
+  border: outset 3px black;
+  box-shadow: 5px 2px 5px 2px black;
   margin-bottom: 10px;
 }
-

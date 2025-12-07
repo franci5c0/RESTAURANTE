@@ -22,7 +22,7 @@
 .section {
   background-size: 100vw 120vh;
   height: 100%;
-  width: 1349px;
+  /* width: 1349px; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -46,8 +46,8 @@
   width: 250px;
   height: 270px;
   border-radius: 20px;
-  border: outset 3px #b8860b;
-  box-shadow: 2px 2px 2px 2px black;
+  border: outset 3px black;
+  box-shadow: 5px 2px 5px 2px black;
   margin-bottom: 10px;
 }
 
