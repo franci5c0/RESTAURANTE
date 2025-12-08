@@ -1,3 +1,12 @@
+:root {
+  --border-shadow: #000000;
+  --white: #ffffff;
+  --box: #6d1414;
+  --text: #ffe4c4;
+  --tittle-border: rgb(192, 169, 36);
+  --borderdefault: rgb(160, 142, 28);
+}
+
 .standard {
   margin-bottom: 30px;
   text-align: center;
@@ -6,16 +15,16 @@
 .standard__tittle {
   background-size: cover;
   font-size: 60px;
-  color: gold;
+  color: var(--tittle-border);
   font-family: "Oleo Script";
-  text-shadow: 4px 5px 4px var(--black); /*atrás(direita) / baixo / sombreamento*/
+  text-shadow: 2px 8px 2px var(--border-shadow); /*atrás(direita) / baixo / sombreamento*/
   text-align: center;
 }
 
 .standard__text {
   font-size: 25px;
-  color: var(--oldgold);
-  text-shadow: 4px 5px 4px var(--black);
+  color: var(--tittle-border);
+  text-shadow: 2px 7px 2px var(--border-shadow);
   font-family: "Lobster";
 }
 
@@ -46,15 +55,16 @@
   width: 250px;
   height: 270px;
   border-radius: 20px;
-  border: outset 3px black;
+  border: outset 4px var(--tittle-border);
   box-shadow: 5px 2px 5px 2px black;
   margin-bottom: 10px;
+  filter: saturate(80%);
 }
 
 .section__div-tittle {
-  color: white;
+  color: var(--tittle-border);
   font-size: 20px;
-  text-shadow: 2px 2px 2px var(--black);
+  text-shadow: 2px 7px 2px var(--border-shadow);
   font-family: "DM Serif Text";
 }
 
@@ -88,9 +98,10 @@
 }
 
 .section__button {
-  background-color: #F5F5DC;
+  background-color: var(--box);
   padding: 10px;
   border-radius: 10px;
+ color: var(--text);
 }
 
 .section__button:hover {

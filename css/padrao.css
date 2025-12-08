@@ -1,5 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Dancing+Script:wght@400..700&family=Great+Vibes&family=Lobster&family=Oleo+Script:wght@400;700&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Momo+Trust+Display&family=Story+Script&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Momo+Trust+Display&family=Story+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ultra&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -7,10 +10,12 @@
 }
 
 :root {
-  --cherry: #9b0d2f;
-  --oldgold: #b8860b;
-  --black: #000000;
+  --border-shadow: #000000;
   --white: #ffffff;
+  --box: #6d1414;
+  --text: #ffe4c4;
+  --tittle-border: rgb(192, 169, 36);
+  --borderdefault: rgb(160, 142, 28);
 }
 
 body {
@@ -24,38 +29,51 @@ body {
   background-size: cover;
   padding: 50px;
   text-align: center;
-  background-image: url(../img/banners/headerfooter-velvet.png);
+  background-image: url(../img/banners/velvet-header-footer.png);
   background-position: 0px -200px;
-  border-bottom: solid 5px;
+  /* border-bottom: solid 5px; */
+  border-bottom: outset 5px var(--borderdefault);
+  border-style: double;
 }
 
 .header__tittle {
-  font-size: 80px;
+  font-size: 70px;
   font-weight: 100;
-  font-family: "Lobster";
+  font-family: "Ultra";
   text-align: center;
-  color: var(--black);
-  -webkit-text-stroke: 2px gold;
+  color: var(--tittle-border);
+  /* -webkit-text-stroke: 1px rgb(139, 121, 14); */
+  text-shadow: 2px 8px 2px var(--border-shadow);
 }
 
 .header__text {
-  font-size: 30px;
-  color: var(--black);
+  font-size: 40px;
+  color: var(--tittle-border);
   font-family: "Lobster";
-  text-shadow: 2px 2px 2px var(--oldgold);
+  text-shadow: 2px 8px 2px var(--border-shadow);
 }
 
 .footer {
-  background-image: url(../img/banners/headerfooter-velvet.png);
+  background-image: url(../img/banners/velvet-header-footer.png);
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border-top: solid 5px;
+  border-top: outset 5px var(--borderdefault);
+  border-style: double;
+  background-position: center;
+}
+
+.footer__logo {
+  padding: 10px;
 }
 
 .footer__logo .img {
   width: 150px;
-  padding: 10px;
+  border: outset 3px var(--tittle-border);
+}
+
+.img__card {
+  background: none;
 }
 
 .footer__payment {
@@ -65,17 +83,21 @@ body {
 .footer__tittle {
   font-size: 30px;
   font-family: "Oleo Script";
+  color: var(--tittle-border);
+  text-shadow: 2px 5px 2px var(--border-shadow);
 }
 
 .payment__imagesdiv {
- display: flex; 
- justify-content: space-around; 
+  display: flex;
+  justify-content: space-around;
 }
+
 .footer_payment .img {
   margin: 20px;
 }
 
-.footer__icon .img {
-  width: 100px;
-  margin-right: 70px;
+.footer__home-icon .img {
+  width: 150px;
+  margin-right: 5px;
+  border: outset 3px var(--tittle-border);
 }

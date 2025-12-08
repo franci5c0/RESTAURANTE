@@ -1,3 +1,12 @@
+:root {
+  --border-shadow: #000000;
+  --white: #ffffff;
+  --box: #6d1414;
+  --text: #ffe4c4;
+  --tittle-border: rgb(192, 169, 36);
+  --borderdefault: rgb(160, 142, 28);
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -6,10 +15,11 @@
 
 .recipe__tittle {
   text-align: center;
-  color: white;
+  color: var(--tittle-border);
   font-size: 30px;
-  text-shadow: 2px 2px 2px var(--black);
+  text-shadow: 2px 7px 2px var(--border-shadow);
   font-family: "DM Serif Text";
+  margin: 30px;
 }
 
 .recipe__main {
@@ -27,12 +37,12 @@
 
 .recipe__comment {
   font-size: 12px;
-  color: wheat;
+  color: var(--text);
   margin-left: 10px;
-  background-color: #551717;
+  background-color: var(--box);
   border-radius: 10px;
   font-family: "Momo Trust Display";
-  border: outset 1px gold;
+  border: outset 3px var(--borderdefault);
   padding: 5px;
 }
 
@@ -40,7 +50,8 @@
   width: 250px;
   height: 270px;
   border-radius: 20px;
-  border: outset 3px black;
-  box-shadow: 5px 2px 5px 2px black;
+  border: outset 5px var(--tittle-border);
+  box-shadow: 5px 2px 5px 2px var(--border-shadow);
   margin-bottom: 10px;
+  filter: saturate(80%);
 }
