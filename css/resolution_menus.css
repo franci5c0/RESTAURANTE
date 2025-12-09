@@ -1,0 +1,173 @@
+@media (min-width: 320px) {
+  .header__tittle {
+    font-size: 30px;
+  }
+
+  .header__text {
+    font-size: 20px;
+  }
+
+  .section__main {
+    display: grid;
+    grid-template-columns: repeat(1, 100px);
+  }
+
+  .section__div .img {
+    width: 100px;
+    height: 100px;
+  }
+
+  .footer__logo .img {
+    width: 50px;
+  }
+
+  .payment__imagesdiv .img {
+    width: 30px;
+    height: 30px;
+  }
+
+  .footer__home-icon .img {
+    width: 50px;
+  }
+}
+
+/* ////////////////////////////////////////////////// */
+
+@media (min-width: 768px) {
+  .header {
+    background-position: 0px 0px;
+  }
+
+  .section__main {
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+  }
+
+  .section__div .img {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+/* ////////////////////////////////////////////////// */
+
+@media (min-width: 1024px) {
+  .header__tittle {
+    font-size: 70px;
+  }
+
+  .header__text {
+    font-size: 50px;
+  }
+
+  .section__main {
+    display: grid;
+    grid-template-columns: repeat(3, 260px);
+  }
+
+  .section__div .img {
+    width: 200px;
+    height: 200px;
+  }
+
+  .footer__logo .img {
+    width: 200px;
+  }
+
+  .section__div-tittle {
+    font-size: 30px;
+  }
+
+  .section__button {
+    width: 200px;
+    height: 100px;
+    font-size: 30px;
+  }
+
+  .footer__tittle {
+    font-size: 50px;
+  }
+
+  .payment__imagesdiv .img {
+    width: 80px;
+    height: 80px;
+  }
+
+  .footer__home-icon .img {
+    width: 200px;
+  }
+}
+
+/* ////////////////////////////////////////////////// */
+
+@media (min-width: 2560px) {
+  .header__tittle {
+    font-size: 150px;
+  }
+
+  .header__text {
+    font-size: 100px;
+  }
+
+  .standard__tittle {
+    font-size: 100px;
+  }
+
+  .standard__text {
+    font-size: 60px;
+  }
+
+  .section__main {
+    display: grid;
+    grid-template-columns: repeat(3, 600px);
+  }
+
+  .section__div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .section__div .img {
+    width: 400px;
+    height: 400px;
+  }
+
+  .section__div-tittle {
+    font-size: 60px;
+  }
+
+  .section__input {
+    width: 200px;
+    height: 80px;
+    font-size: 50px;
+  }
+
+  .section__span {
+    font-size: 60px;
+  }
+  .section__button {
+    width: 300px;
+    height: 150px;
+    font-size: 50px;
+  }
+
+
+  .footer__logo .img{
+    width: 400px;
+  }
+
+  .footer__tittle {
+    font-size: 100px;
+  }
+
+  .payment__imagesdiv .img {
+    width: 150px;
+    height: 150px;
+  }
+
+  .footer__home-icon .img {
+    width: 400px;
+  }
+}
