@@ -86,11 +86,16 @@ body {
 .payment__imagesdiv {
   display: flex;
   justify-content: space-around;
+  .img {
+    width: 10px;
+  }
 }
+
 
 .footer_payment .img {
   margin: 20px;
 }
+
 
 .footer__home-icon .img {
   width: 150px;
@@ -98,5 +103,5 @@ body {
   border: outset 3px var(--tittle-border);
 }
 
-/* /////////////////////////////////////////////// */
+
 
