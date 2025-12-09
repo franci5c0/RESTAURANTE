@@ -1,0 +1,38 @@
+@media(min-width: 320px) {
+    .recipe__main {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+@media(min-width: 1024px) {
+    .recipe__img {
+        width: 300px;
+        height: 300px;
+    }
+
+    .recipe__comment {
+        font-size: 30px;
+    }
+}
+
+@media(min-width: 1440px) {
+    .recipe__img {
+        width: 400px;
+        height: 450px;
+    }
+}
+
+@media(min-width: 2560px) {
+    .recipe__img {
+        width: 500px;
+        height: 550px;
+        margin-bottom: 30px;
+    }
+
+    .recipe__comment {
+        font-size: 60px;
+        margin-bottom: 40px;
+    }
+}
