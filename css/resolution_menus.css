@@ -33,7 +33,7 @@
 
 /* ////////////////////////////////////////////////// */
 
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
   .header {
     background-position: 0px 0px;
   }
@@ -47,10 +47,10 @@
     width: 150px;
     height: 150px;
   }
-}
+} */
 
 /* ////////////////////////////////////////////////// */
-
+/* 
 @media (min-width: 1024px) {
   .header__tittle {
     font-size: 70px;
@@ -96,10 +96,10 @@
   .footer__home-icon .img {
     width: 200px;
   }
-}
+} */
 
 /* ////////////////////////////////////////////////// */
-
+/* 
 @media (min-width: 2560px) {
   .header__tittle {
     font-size: 150px;
@@ -170,4 +170,4 @@
   .footer__home-icon .img {
     width: 400px;
   }
-}
+} */
