@@ -86,9 +86,6 @@ body {
 .payment__imagesdiv {
   display: flex;
   justify-content: space-around;
-  .img {
-    width: 10px;
-  }
 }
 
 

@@ -1,4 +1,7 @@
-@media (min-width: 320px) {
+/* ==========================================================================
+   1. TELAS PEQUENAS (Celulares) - De 320px até 767px
+   ========================================================================== */
+@media (min-width: 320px) and (max-width: 767px) {
   .header__tittle {
     font-size: 30px;
   }
@@ -31,9 +34,10 @@
   }
 }
 
-/* ////////////////////////////////////////////////// */
-
-/* @media (min-width: 768px) {
+/* ==========================================================================
+   2. TELAS MÉDIAS (Tablets) - De 768px até 1023px
+   ========================================================================== */
+@media (min-width: 768px) and (max-width: 1023px) {
   .header {
     background-position: 0px 0px;
   }
@@ -47,11 +51,12 @@
     width: 150px;
     height: 150px;
   }
-} */
+}
 
-/* ////////////////////////////////////////////////// */
-/* 
-@media (min-width: 1024px) {
+/* ==========================================================================
+   3. TELAS GRANDES (Desktops normais) - De 1024px até 2559px
+   ========================================================================== */
+@media (min-width: 1024px) and (max-width: 2559px) {
   .header__tittle {
     font-size: 70px;
   }
@@ -96,10 +101,11 @@
   .footer__home-icon .img {
     width: 200px;
   }
-} */
+}
 
-/* ////////////////////////////////////////////////// */
-/* 
+/* ==========================================================================
+   4. TELAS GIGANTES (Monitores 2K/4K) - De 2560px para cima
+   ========================================================================== */
 @media (min-width: 2560px) {
   .header__tittle {
     font-size: 150px;
@@ -147,14 +153,14 @@
   .section__span {
     font-size: 60px;
   }
+
   .section__button {
     width: 300px;
     height: 150px;
     font-size: 50px;
   }
 
-
-  .footer__logo .img{
+  .footer__logo .img {
     width: 400px;
   }
 
@@ -170,4 +176,4 @@
   .footer__home-icon .img {
     width: 400px;
   }
-} */
+}

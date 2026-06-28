@@ -31,7 +31,6 @@
 .section {
   background-size: 100vw 120vh;
   height: 100%;
-  /* width: 1349px; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -41,7 +40,7 @@
 
 .section__main {
   display: grid;
-  grid-template-columns: repeat(3, 250px);
+  grid-template-columns: repeat(3, 1fr);
   gap: 60px;
   justify-content: center;
 }
